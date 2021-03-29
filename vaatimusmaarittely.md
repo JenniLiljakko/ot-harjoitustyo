@@ -13,4 +13,12 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä. Myöhemmin lis
 ### Peruskäyttäjän toiminnot:
 
 
+#### Ennen kirjautumista
+* Käyttäjä voi luoda käyttäjätunnuksen sovellukseen
+** tunnus sisältää vähintään 2 merkkiä
+* Sovellukseen kirjaudutaan luodulla tunnuksella
+** jos tunnusta ei ole olemassa, ilmoittaa ohjelma siitä virheilmoituksella
 
+### Kirjautumisen jälkeen
+
+*
