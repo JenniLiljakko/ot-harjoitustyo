@@ -1,16 +1,16 @@
-#Vaatimusmäärittely
+# Vaatimusmäärittely
 
-###Sovelluksen tarkoitus:
+### Sovelluksen tarkoitus:
 
 Tehtävägeneraattori antaa käyttäjälle tehtäviä, jotka käyttäjä ratkaisee. Ohjelma kertoo käyttäjälle oliko ratkaisu oikein vain väärin, oikean ratkaisun kohdalla ohjelma myös näyttää mallivastauksen.
 Mikäli käyttäjä jää jumiin, on mahdollista saada vinkki tehtävän ratkaisuun. Tehtävistä saa pisteitä, ja lopuksi näytetään saadut pisteet. 
 Ohjelmaan kirjaudutaan sisään, ja siinä voi olla useita eri tasoisia käyttäjiä.
 
-###Käyttäjät:
+### Käyttäjät:
 
 Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä. Myöhemmin lisätään pääkäyttäjä, joka voi hallinnoida eri käyttäjiä sekä nähdä tilastoja.
 
-###Peruskäyttäjän toiminnot:
+### Peruskäyttäjän toiminnot:
 
 
 
