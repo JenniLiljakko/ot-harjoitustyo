@@ -32,6 +32,7 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä. Myöhemmin lis
 
 ### Jatkokehitysideat:
 
+* Generaattorissa voi valita tehtävien aiheen
 * Uusi käyttäjä aloittaa vaikeustasolta 1, ja suorittamalla kaikki tehtävät oikein pääsee hän jatkamaan seuraavalle vaikeustasolle
 * Mikäli käyttäjä jää jumiin, on mahdollista saada vinkki tehtävän ratkaisuun "apua" nappia painamalla
 * Top- listat 
