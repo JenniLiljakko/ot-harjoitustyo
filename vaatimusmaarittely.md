@@ -30,6 +30,11 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä. Myöhemmin lis
 * Lopuksi käyttäjä näkee saamansa pisteet
 * Käyttäjä voi kirjautua ulos ohjelmasta
 
+### Vaatimukset:
+
+* Tehtävägeneraattori toimii Linux- ja OSX-käyttöjärjestelmillä
+* Käyttäjien tiedot talletetaan paikalliselle levylle
+
 
 ### Jatkokehitysideat:
 
