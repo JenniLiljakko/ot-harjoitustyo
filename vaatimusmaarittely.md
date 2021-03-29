@@ -10,6 +10,9 @@ Ohjelmaan kirjaudutaan sisään, ja siinä voi olla useita eri tasoisia käyttä
 
 Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä. Myöhemmin lisätään pääkäyttäjä, joka voi hallinnoida eri käyttäjiä sekä nähdä tilastoja.
 
+### Käyttöliittymäluonnos:
+
+
 ### Peruskäyttäjän toiminnot:
 
 
