@@ -18,6 +18,9 @@
 
 ##### viikko 2
 [maksukortti_test](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/laskarit/viikko2/maksukortti/src/tests/maksukortti_test.py)
+
 [kassapaate_test](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/laskarit/viikko2/unicafe/src/tests/kassapaate_test.py)
+
 [maksukortti_test](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/laskarit/viikko2/unicafe/src/tests/maksukortti_test.py)
+
 [coverage report/testikattavuus näyttökuva](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/laskarit/viikko2/coverage_report.png)
