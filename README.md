@@ -5,7 +5,7 @@
 ### Dokumentaatio
 [Työaikakirjanpito ](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
-[Vaatimusmäärittely](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/vaatimusmaarittely.md)
+[Vaatimusmäärittely](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
   
   
   
