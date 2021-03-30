@@ -12,6 +12,7 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä. Myöhemmin lis
 
 ### Käyttöliittymäluonnos:
 
+![](tehtavageneraattori_luonnos.jpg)
 
 ### Peruskäyttäjän toiminnot:
 
@@ -29,9 +30,15 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä. Myöhemmin lis
 * Lopuksi käyttäjä näkee saamansa pisteet
 * Käyttäjä voi kirjautua ulos ohjelmasta
 
+### Vaatimukset:
+
+* Tehtävägeneraattori toimii Linux- ja OSX-käyttöjärjestelmillä
+* Käyttäjien tiedot talletetaan paikalliselle levylle
+
 
 ### Jatkokehitysideat:
 
+* Generaattorissa voi valita tehtävien aiheen
 * Uusi käyttäjä aloittaa vaikeustasolta 1, ja suorittamalla kaikki tehtävät oikein pääsee hän jatkamaan seuraavalle vaikeustasolle
 * Mikäli käyttäjä jää jumiin, on mahdollista saada vinkki tehtävän ratkaisuun "apua" nappia painamalla
 * Top- listat 

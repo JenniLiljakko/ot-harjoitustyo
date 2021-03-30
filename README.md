@@ -1,13 +1,19 @@
-# Tämä on otsikko 
- jotain tekstiä
- tavallista tekstiä
- *kursivoitua tekstiä*
- **lihavoitua tekstiä**
- ja **yhdistettyä** _tekstiä_
- kas niin, testimme on _valmis_ commitoitavaksi
+# Tehtävägeneraattori
 
-###### samanaikainen muutos! 
+
+
+### Dokumentaatio
+[Työaikakirjanpito](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/tuntikirjanpito.md)
+
+[Vaatimusmäärittely](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/vaatimusmaarittely.md)
   
+  
+  
+  
+### Tehtävät
+##### viikko 1
 [gitlog](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
- 
- [komentorivi](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
+
+[komentorivi](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
+
+##### viikko 2
