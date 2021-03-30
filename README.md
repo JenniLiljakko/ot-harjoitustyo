@@ -3,7 +3,7 @@
 
 
 ### Dokumentaatio
-[Työaikakirjanpito](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/tuntikirjanpito.md)
+[Työaikakirjanpito ](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/tuntikirjanpito.md )
 
 [Vaatimusmäärittely](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/vaatimusmaarittely.md)
   
