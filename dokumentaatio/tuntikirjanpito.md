@@ -3,3 +3,5 @@
 |22.3|1 | Aiheen suunnittelu, github repositorion luonti ym.|
 |29.3|2 | Aiheen suunnittelua lisää, vaatimusmäärittelyn luonti |
 |15.4|3 | Tutustuminen TkInteriin, projektin alustus, poetry ym.|
+|16.4|1 | Tutustuminen Invoke ohjeeseen, Invoke asennus|
+|16.4|1 |Tietokannan alustus |
