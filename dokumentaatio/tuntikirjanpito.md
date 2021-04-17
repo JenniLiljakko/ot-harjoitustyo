@@ -5,3 +5,4 @@
 |15.4|3 | Tutustuminen TkInteriin, projektin alustus, poetry ym.|
 |16.4|1 | Tutustuminen Invoke ohjeeseen, Invoke asennus|
 |16.4|1 |Tietokannan alustus |
+|17.4|4 |Kirjautumisikkuna, uuden käyttäjän luonti |
