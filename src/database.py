@@ -21,9 +21,9 @@ def create_tables():
     ''')
 
     cursor.execute('''
-            create table excercises (
-                excercise text,
-                excercise_number integer primary key,
+            create table exercises (
+                exercise_number integer primary key,
+                exercise text,
                 subject text,
                 answer real
             );

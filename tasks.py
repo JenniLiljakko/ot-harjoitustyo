@@ -1,4 +1,5 @@
 from invoke import task
+import src.database as db
 
 @task
 def start(ctx):
@@ -11,3 +12,7 @@ def coverage(ctx):
 @task(coverage)
 def coverage_report(ctx):
     ctx.run("coverage html")
+
+@task
+def build(ctx):
+    db.start()
