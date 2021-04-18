@@ -8,3 +8,5 @@
 |17.4|4 |Kirjautumisikkuna, uuden käyttäjän luonti |
 |18.4|2 |Tehtävänäkymän luonti |
 
+Yhteensä: 14t
+
