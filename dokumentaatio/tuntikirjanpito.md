@@ -6,3 +6,5 @@
 |16.4|1 | Tutustuminen Invoke ohjeeseen, Invoke asennus|
 |16.4|1 |Tietokannan alustus |
 |17.4|4 |Kirjautumisikkuna, uuden käyttäjän luonti |
+|18.4|2 |Tehtävänäkymän luonti |
+
