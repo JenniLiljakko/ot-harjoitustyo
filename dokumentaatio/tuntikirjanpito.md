@@ -9,6 +9,6 @@
 |18.4|2 |Tehtävänäkymän luonti |
 |19.4|3 |Pääsivun (Frontpage) luonti, siirtyminen tehtävänäkymään pääsivulta |
 |19.4|0.5|Pylint asennus, tutustuminen ja kokeilu|
-|    |Yhteensä: 17.5t|   |
+|hteensä:| 17.5|tuntia  |
 
 
