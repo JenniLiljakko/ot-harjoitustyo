@@ -1,4 +1,4 @@
-from tkinter import Tk, ttk, constants, StringVar, Toplevel
+from tkinter import ttk, constants, StringVar, Toplevel
 from database import connection
 from create_user import CreateUserView
 

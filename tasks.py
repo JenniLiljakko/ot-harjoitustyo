@@ -14,5 +14,5 @@ def coverage_report(ctx):
     ctx.run("coverage html")
 
 @task
-def build(ctx):
+def build():
     db.start()

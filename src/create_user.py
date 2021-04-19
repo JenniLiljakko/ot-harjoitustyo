@@ -1,4 +1,4 @@
-from tkinter import Tk, ttk, constants, StringVar
+from tkinter import ttk, constants, StringVar
 from database import connection
 
 
