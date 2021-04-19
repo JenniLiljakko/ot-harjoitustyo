@@ -8,6 +8,6 @@
 |17.4|4 |Kirjautumisikkuna, uuden käyttäjän luonti |
 |18.4|2 |Tehtävänäkymän luonti |
 |19.4|3 |Pääsivun (Frontpage) luonti, siirtyminen tehtävänäkymään pääsivulta |
-
-Yhteensä: 17t
+|19.4|0.5|Pylint asennus, tutustuminen ja kokeilu|
+Yhteensä: 17.5t
 
