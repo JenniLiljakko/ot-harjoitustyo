@@ -7,6 +7,7 @@
 |16.4|1 |Tietokannan alustus |
 |17.4|4 |Kirjautumisikkuna, uuden käyttäjän luonti |
 |18.4|2 |Tehtävänäkymän luonti |
+|19.4|3 |Pääsivun (Frontpage) luonti, siirtyminen tehtävänäkymään pääsivulta |
 
-Yhteensä: 14t
+Yhteensä: 17t
 
