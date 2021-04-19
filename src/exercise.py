@@ -35,10 +35,10 @@ class ExerciseView:
             self._label_var.set("incorrect :(")
 
     
-window = Tk()
-window.title("Exercise")
+# window = Tk()
+# window.title("Exercise")
 
-ui = ExerciseView(window, 1)
-ui.start()
+# ui = ExerciseView(window, 1)
+# ui.start()
 
-window.mainloop()
+# window.mainloop()
