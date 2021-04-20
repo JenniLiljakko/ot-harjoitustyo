@@ -44,6 +44,8 @@ poetry run invoke lint
 
 * [Vaatimusmäärittely](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
   
+  [Arkkitehtuuri](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
+  
   
   
   
