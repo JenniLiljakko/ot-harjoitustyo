@@ -3,6 +3,24 @@
 Sovelluksen avulla käyttäjä ratkaisee sovelluksen antamia tehtäviä. Tehtäville on useampi vaikeusaste.
 Tehtävägeneraattori vaatii tunnuksen luomisen, ja kirjautumisen sisään salasanan avulla.
 
+## Edistyminen:
+
+* Sovellus on edistynyt viime viikosta
+* Sovelluksella on nyt toimiva sisäänkirjautumisnäkymä, sekä 'uuden käyttäjän luonti' näkymä
+*     - kirjautuminen vaatii tunnuksen ja salasanan, tunnuksen tulee olla ainakin 2 merkkiä pitkä
+      - ohjelma ilmoittaa mikäli:
+         - tunnusta ei ole vielä olemassa,
+          - mikäli salasana on väärä
+          - kun tunnus ja salasana on oikein (sisäänkirjautuminen onnistui)
+          
+* Sovelluksella on pääsivu, jolla on listattuna eri vaikeustasot, sekä tehtävänumerot nappien takana.
+    - **siirtyminen kirjautumisikkunasta pääsivulle ei ole vielä toteutettu**
+* Sovelluksen sovelluslogiikka on eriytetty käyttöliittymästä
+* Pylint on otettu käyttöön
+* Sovelluksella on arkkitehtuuritiedosto dokumentaatio hakemiston alla
+* **Testausta ei ole vielä aloitettu**
+
+
 ## Asentaminen
 1. Asenna sovellus komennolla:
 
