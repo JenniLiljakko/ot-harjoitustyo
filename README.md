@@ -7,11 +7,11 @@ Tehtävägeneraattori vaatii tunnuksen luomisen, ja kirjautumisen sisään salas
 
 * Sovellus on edistynyt viime viikosta
 * Sovelluksella on nyt toimiva sisäänkirjautumisnäkymä, sekä 'uuden käyttäjän luonti' näkymä
-*     - kirjautuminen vaatii tunnuksen ja salasanan, tunnuksen tulee olla ainakin 2 merkkiä pitkä
-      - ohjelma ilmoittaa mikäli:
-         - tunnusta ei ole vielä olemassa,
-          - mikäli salasana on väärä
-          - kun tunnus ja salasana on oikein (sisäänkirjautuminen onnistui)
+* Kirjautuminen vaatii tunnuksen ja salasanan, tunnuksen tulee olla ainakin 2 merkkiä pitkä
+      * ohjelma ilmoittaa mikäli:
+      * tunnusta ei ole vielä olemassa,
+      * mikäli salasana on väärä
+      * kun tunnus ja salasana on oikein (sisäänkirjautuminen onnistui)
           
 * Sovelluksella on pääsivu, jolla on listattuna eri vaikeustasot, sekä tehtävänumerot nappien takana.
     - **siirtyminen kirjautumisikkunasta pääsivulle ei ole vielä toteutettu**
