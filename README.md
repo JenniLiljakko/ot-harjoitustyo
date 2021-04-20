@@ -21,21 +21,18 @@ Tehtävägeneraattori vaatii tunnuksen luomisen, ja kirjautumisen sisään salas
 
 
 ## Asentaminen
-1. Asenna sovellus komennolla:
 
 ```bash
+#Asenna sovellus komennolla:
+
 poetry install
-```
 
-2. Alusta sovellus:
+#Alusta sovellus komennolla:
 
-```bash
 poetry run invoke build
-```
 
-3. Käynnistä/suorita komennolla:
+#Käynnistä/suorita komennolla:
 
-```bash
 poetry run invoke start
 ```
 
