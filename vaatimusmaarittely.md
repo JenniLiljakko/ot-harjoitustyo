@@ -8,7 +8,7 @@ Ohjelmaan kirjaudutaan sisään, ja siinä voi olla useita eri tasoisia käyttä
 
 ### Käyttäjät:
 
-Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä. Myöhemmin lisätään pääkäyttäjä, joka voi hallinnoida eri käyttäjiä sekä nähdä tilastoja.
+Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä (**tehty**). Myöhemmin lisätään pääkäyttäjä, joka voi hallinnoida eri käyttäjiä sekä nähdä tilastoja.
 
 ### Käyttöliittymäluonnos:
 
@@ -18,14 +18,14 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä. Myöhemmin lis
 
 
 #### Ennen kirjautumista
-* Käyttäjä voi luoda käyttäjätunnuksen sovellukseen
+* Käyttäjä voi luoda käyttäjätunnuksen sovellukseen (**tehty**)
 * Tunnus sisältää vähintään 2 merkkiä
-* Sovellukseen kirjaudutaan luodulla tunnuksella
-* Jos tunnusta ei ole olemassa, ilmoittaa ohjelma siitä virheilmoituksella
+* Sovellukseen kirjaudutaan luodulla tunnuksella (**tehty**)
+* Jos tunnusta ei ole olemassa, ilmoittaa ohjelma siitä virheilmoituksella (**tehty**)
 
 #### Kirjautumisen jälkeen
 
-* Käyttäjä valitsee vaikeustason tehtävilleen
+* Käyttäjä valitsee vaikeustason tehtävilleen (**tehty**)
 * Käyttäjä vastaa tehtäviin, ja saa niistä pisteitä
 * Lopuksi käyttäjä näkee saamansa pisteet
 * Käyttäjä voi kirjautua ulos ohjelmasta
@@ -44,3 +44,4 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä. Myöhemmin lis
 * Top- listat 
 * Käyttäjätunnuksien yhteyteen salasana
 * Tulosten resetointi käyttäjäkohtaisesti
+* Ajastin tehtävien yhteyteen
