@@ -35,7 +35,7 @@ poetry run invoke coverage-report
 Tarkistukset voi suorittaa seuraavalla komennolla:
 
 ```bash
-poetry run invoke lint
+poetry run invoke pylint
 ```
 
 
