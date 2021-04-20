@@ -4,7 +4,7 @@ Sovelluksen avulla käyttäjä ratkaisee sovelluksen antamia tehtäviä. Tehtäv
 Tehtävägeneraattori vaatii tunnuksen luomisen, ja kirjautumisen sisään salasanan avulla.
 
 ## Asentaminen
-1. Asenna sovellus kommennolla:
+1. Asenna sovellus komennolla:
 
 ```bash
 poetry install
