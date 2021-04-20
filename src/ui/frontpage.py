@@ -1,6 +1,6 @@
 from tkinter import Tk, ttk, constants, Toplevel
 from database import connection
-from exercise import ExerciseView
+from .exercise_view import ExerciseView
 
 
 class FrontPageView:

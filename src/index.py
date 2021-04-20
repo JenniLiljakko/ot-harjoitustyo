@@ -1,5 +1,5 @@
 from tkinter import Tk
-from login import LoginView
+from ui.login import LoginView
 
 window = Tk()
 window.title("Login")

@@ -1,6 +1,6 @@
 from tkinter import ttk, constants, StringVar, Toplevel
-from database import connection
-from create_user import CreateUserView
+from services.user_service import UserService
+from .create_user import CreateUserView
 
 
 class LoginView:
@@ -40,15 +40,9 @@ class LoginView:
         username = self._username.get()
         password = self._password.get()
 
-        db_password = connection.execute("SELECT password FROM users WHERE username=\'{}\'".format(username)).fetchone()
-
-        if db_password is None:
-            self._label_var.set("No username found. Create new user.")
-        else:
-            if db_password[0] != password:
-                self._label_var.set("Wrong password")
-            else:
-                self._label_var.set("Correct!")
+        service = UserService()
+        message = service.login(username, password)
+        self._label_var.set(message)
 
     def _handle_new_user_button_click(self):
         create_user_window = Toplevel(self._root)

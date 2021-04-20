@@ -1,5 +1,4 @@
 from invoke import task
-import src.database as db
 
 @task
 def start(ctx):
@@ -7,12 +6,16 @@ def start(ctx):
 
 @task
 def coverage(ctx):
-    ctx.run("coverage run --branch -m pytest")
+    ctx.run("coverage run --branch -m pytest src")
 
 @task(coverage)
 def coverage_report(ctx):
     ctx.run("coverage html")
 
 @task
-def build():
-    db.start()
+def build(ctx):
+    ctx.run("python3 src/build.py")
+
+@task
+def pylint(ctx):
+    ctx.run("pylint src")

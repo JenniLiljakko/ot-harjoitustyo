@@ -1,5 +1,5 @@
 from tkinter import ttk, constants, StringVar
-from database import connection
+from services.user_service import UserService
 
 
 class CreateUserView:
@@ -35,15 +35,8 @@ class CreateUserView:
         username = self._username.get()
         password = self._password.get()
 
-        db_username = connection.execute("SELECT username FROM users WHERE username=\'{}\'".format(username)).fetchone()
-        if db_username is None:
-            self._label_var.set("User created.")
-            connection.execute("INSERT INTO users (username, password) VALUES (\'{}\',\'{}\')".format(username, password))
+        service = UserService()
+        message = service.create(username, password)
+        self._label_var.set(message)
+        if message == "User created.":
             self._root.destroy()
-        else:
-            self._label_var.set("User already exists.")
-
-        
-    
-
-        
