@@ -9,6 +9,7 @@
 |18.4|2 |Tehtävänäkymän luonti |
 |19.4|3 |Pääsivun (Frontpage) luonti, siirtyminen tehtävänäkymään pääsivulta |
 |19.4|0.5|Pylint asennus, tutustuminen ja kokeilu|
-|**Yhteensä:**|**17.5 t**||
+|20.4|5 |Sovelluksen rakenteen refaktorointia, luokkakaavio sekä pakkausrakenne luonti|
+|**Yhteensä:**|**22.5 t**||
 
 
