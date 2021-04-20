@@ -10,7 +10,7 @@ Tehtävägeneraattori vaatii tunnuksen luomisen, ja kirjautumisen sisään salas
 poetry install
 ```
 
-2. Alust sovellus:
+2. Alusta sovellus:
 
 ```bash
 poetry run invoke build
