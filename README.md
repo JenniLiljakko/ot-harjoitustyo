@@ -18,7 +18,7 @@ Tehtävägeneraattori vaatii tunnuksen luomisen, ja kirjautumisen sisään salas
 * Pylint on otettu käyttöön
 * Sovelluksella on arkkitehtuuritiedosto dokumentaatio hakemiston alla
 * **Testausta ei ole vielä aloitettu**
-* **Virtuaalityöasemaa en ole saanut toimimaan fuksiläppärillä useista yrityksistä huolimatta, joten en ole pystynyt tarkastamaan ohjelman toimivuutta sen kautta**
+* **Virtuaalityöasemaa en ole saanut toimimaan laitoksen fuksiläppärillä (Cubbli - Horizon) useista yrityksistä huolimatta, joten en ole pystynyt tarkastamaan ohjelman toimivuutta sen kautta**
 
 
 ## Asentaminen
