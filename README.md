@@ -38,10 +38,10 @@ poetry run invoke start
 
 ## Muuta:
 
-### Testikattavuus
-Testikattavuusraportin voi luoda seuraavalla komennolla:
+### Testikattavuus: (huom! Ei vielä käytössä/testausta ei aloitettu)
 
 ```bash
+#Testikattavuusraportin voi luoda seuraavalla komennolla:
 poetry run invoke coverage-report
 ```
 
@@ -54,6 +54,7 @@ poetry run invoke pylint
 
 
 ## Dokumentaatio
+
 * [Työaikakirjanpito ](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
 * [Vaatimusmäärittely](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
