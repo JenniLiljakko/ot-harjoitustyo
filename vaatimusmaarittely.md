@@ -42,6 +42,6 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä (**tehty**). My
 * Uusi käyttäjä aloittaa vaikeustasolta 1, ja suorittamalla kaikki tehtävät oikein pääsee hän jatkamaan seuraavalle vaikeustasolle
 * Mikäli käyttäjä jää jumiin, on mahdollista saada vinkki tehtävän ratkaisuun "apua" nappia painamalla
 * Top- listat 
-* Käyttäjätunnuksien yhteyteen salasana
+* Käyttäjätunnuksien yhteyteen salasana (**tehty**)
 * Tulosten resetointi käyttäjäkohtaisesti
 * Ajastin tehtävien yhteyteen
