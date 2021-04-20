@@ -19,7 +19,7 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä (**tehty**). My
 
 #### Ennen kirjautumista
 * Käyttäjä voi luoda käyttäjätunnuksen sovellukseen (**tehty**)
-* Tunnus sisältää vähintään 2 merkkiä
+* Tunnus sisältää vähintään 2 merkkiä(**tehty**)
 * Sovellukseen kirjaudutaan luodulla tunnuksella (**tehty**)
 * Jos tunnusta ei ole olemassa, ilmoittaa ohjelma siitä virheilmoituksella (**tehty**)
 
