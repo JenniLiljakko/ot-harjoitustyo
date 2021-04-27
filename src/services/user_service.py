@@ -16,7 +16,7 @@ class UserService:
             if db_password != password:
                 return "Wrong password"
             else:
-                return "Correct!"
+                return "Welcome"
     
     def create(self, username, password):
 

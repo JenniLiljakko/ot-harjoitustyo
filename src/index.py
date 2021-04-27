@@ -1,10 +1,10 @@
 from tkinter import Tk
-from ui.login import LoginView
+from ui.ui import UI
 
 window = Tk()
-window.title("Login")
+window.title("APP")
 
-ui = LoginView(window)
+ui = UI(window)
 ui.start()
 
 window.mainloop()
