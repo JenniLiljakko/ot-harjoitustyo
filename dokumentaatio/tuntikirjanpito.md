@@ -10,6 +10,7 @@
 |19.4|3 |Pääsivun (Frontpage) luonti, siirtyminen tehtävänäkymään pääsivulta |
 |19.4|0.5|Pylint asennus, tutustuminen ja kokeilu|
 |20.4|5 |Sovelluksen rakenteen refaktorointia, luokkakaavion sekä pakkausrakenteen luonti|
-|**Yhteensä:**|**22.5 t**||
+|26.4|2 |Lisää refaktorointia, kirjautumisnäkymän yhdistäminen pääsivuun, sekä uloskirjautuminen|
+|**Yhteensä:**|**25.5 t**||
 
 
