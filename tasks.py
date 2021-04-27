@@ -13,6 +13,10 @@ def coverage_report(ctx):
     ctx.run("coverage html")
 
 @task
+def test(ctx):
+    ctx.run("pytest src")
+
+@task
 def build(ctx):
     ctx.run("python3 src/build.py")
 

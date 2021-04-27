@@ -26,3 +26,13 @@ class UserRepository:
             return False
         else:
             return True
+
+    def delete_all(self):
+        cursor = self._connection.cursor()
+        cursor.execute('DELETE FROM users')
+        self._connection.commit()
+
+    def count_users(self):
+        cursor = self._connection.cursor()
+        count = cursor.execute('SELECT COUNT(*) FROM users').fetchone()
+        return count[0]
