@@ -28,7 +28,7 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä (**tehty**). My
 * Käyttäjä valitsee vaikeustason tehtävilleen (**tehty**)
 * Käyttäjä vastaa tehtäviin, ja saa niistä pisteitä
 * Lopuksi käyttäjä näkee saamansa pisteet
-* Käyttäjä voi kirjautua ulos ohjelmasta
+* Käyttäjä voi kirjautua ulos ohjelmasta (**tehty**)
 
 ### Vaatimukset:
 
