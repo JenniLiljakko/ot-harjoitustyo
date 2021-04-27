@@ -1,5 +1,8 @@
 # Tehtävägeneraattori
 
+
+[# RELEASE 1 ](https://github.com/JenniLiljakko/ot-harjoitustyo/releases/tag/viikko5)
+
 Sovelluksen avulla käyttäjä ratkaisee sovelluksen antamia tehtäviä. Tehtäville on useampi vaikeusaste.
 Tehtävägeneraattori vaatii tunnuksen luomisen, ja kirjautumisen sisään salasanan avulla.
 
