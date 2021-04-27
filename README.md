@@ -13,11 +13,11 @@ Tehtävägeneraattori vaatii tunnuksen luomisen, ja kirjautumisen sisään salas
     - mikäli salasana on väärä
     - kun tunnus ja salasana on oikein (sisäänkirjautuminen onnistui)     
 * Sovelluksella on pääsivu, jolla on listattuna eri vaikeustasot, sekä tehtävänumerot nappien takana.
-    - **siirtymistä kirjautumisikkunasta pääsivulle ei ole vielä toteutettu**
+* Kirjautumisen jälkeen ohjelma siirtyy pääsivulle
 * Sovelluksen sovelluslogiikka on eriytetty käyttöliittymästä
 * Pylint on otettu käyttöön
 * Sovelluksella on arkkitehtuuritiedosto dokumentaatio hakemiston alla
-* **Testausta ei ole vielä aloitettu**
+* Testaus on aloitettu, mutta vielä kovin vaiheessa
 * **Virtuaalityöasemaa en ole saanut toimimaan laitoksen fuksiläppärillä (Cubbli - Horizon) useista yrityksistä huolimatta, joten en ole pystynyt tarkastamaan ohjelman toimivuutta sen kautta**
 
 
@@ -39,7 +39,7 @@ poetry run invoke start
 
 ## Muuta:
 
-### Testikattavuus: (huom! Ei vielä käytössä/testausta ei aloitettu)
+### Testikattavuus: 
 
 ```bash
 #Testikattavuusraportin voi luoda seuraavalla komennolla:
