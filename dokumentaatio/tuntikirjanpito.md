@@ -12,6 +12,7 @@
 |20.4|5 |Sovelluksen rakenteen refaktorointia, luokkakaavion sekä pakkausrakenteen luonti|
 |26.4|2 |Lisää refaktorointia, kirjautumisnäkymän yhdistäminen pääsivuun, sekä uloskirjautuminen|
 |27.4|3 |Testien aloitus, kattavuusraportti|
-|**Yhteensä:**|**28.5 t**||
+|28.4|2.5 |Testien jatko, testien ohjaaminen omaan tietokantaan|
+|**Yhteensä:**|**31 t**||
 
 
