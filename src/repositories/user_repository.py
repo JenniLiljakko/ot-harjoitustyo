@@ -3,8 +3,11 @@ from database import connection
 
 
 class UserRepository:
-    def __init__(self):
-        self._connection = connection
+    def __init__(self, conn=None):
+        if conn is None:
+            self._connection = connection
+        else:
+            self._connection = conn
 
     def create_user(self, user):
         cursor = self._connection.cursor()

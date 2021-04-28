@@ -4,3 +4,4 @@
 *htmlcov
 
 data/database.sqlite
+data/test.sqlite

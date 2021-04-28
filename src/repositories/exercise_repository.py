@@ -3,8 +3,11 @@ from database import connection
 
 
 class ExerciseRepository:
-    def __init__(self):
-        self._connection = connection
+    def __init__(self, conn=None):
+        if conn is None:
+            self._connection = connection
+        else:
+            self._connection = conn
 
     def get_levels(self):
         cursor = self._connection.cursor()
@@ -21,5 +24,5 @@ class ExerciseRepository:
     def get_answer(self, exercise_number):
         cursor = self._connection.cursor()
         return cursor.execute("SELECT answer FROM exercises WHERE exercise_number=?", (exercise_number,)).fetchone()
- 
+
             
