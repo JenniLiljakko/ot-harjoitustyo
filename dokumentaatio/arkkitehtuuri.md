@@ -6,10 +6,10 @@ Ohjelman pakkausrakenne on seuraavanlainen:
 
 ![pakkausrakenne](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/kuvat/pakkausrakenne.jpg)
 
-[UI](https://github.com/JenniLiljakko/ot-harjoitustyo/tree/master/src/ui) sisältää käyttöliittymän,
-[Services](https://github.com/JenniLiljakko/ot-harjoitustyo/tree/master/src/services) sovelluslogiikan,
-[Repositories](https://github.com/JenniLiljakko/ot-harjoitustyo/tree/master/src/repositories) pysyväistallennuksen.
-sekä [Entities](https://github.com/JenniLiljakko/ot-harjoitustyo/tree/master/src/entities) sisältää sovelluksen käyttämiä tietokohteita.
+* [UI](https://github.com/JenniLiljakko/ot-harjoitustyo/tree/master/src/ui) sisältää käyttöliittymän
+* [Services](https://github.com/JenniLiljakko/ot-harjoitustyo/tree/master/src/services) sovelluslogiikan
+* [Repositories](https://github.com/JenniLiljakko/ot-harjoitustyo/tree/master/src/repositories) pysyväistallennuksen
+* [Entities](https://github.com/JenniLiljakko/ot-harjoitustyo/tree/master/src/entities) sisältää sovelluksen käyttämiä tietokohteita
 
 ## Käyttöliittymä
 
