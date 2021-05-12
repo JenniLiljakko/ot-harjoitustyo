@@ -12,7 +12,7 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä.
 
 ### Käyttöliittymäluonnos:
 
-![](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/tehtavageneraattori_luonnos.jpg)
+![](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/kuvat/tehtavageneraattori_luonnos.jpg)
 
 ### Peruskäyttäjän toiminnot:
 
