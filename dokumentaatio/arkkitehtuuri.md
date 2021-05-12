@@ -43,9 +43,15 @@ Esimerkiksi:
 * get_exercise_number_list(level)
 * check_answer(answer, exercise_number)
 
-Tallennuksesta vastaavat pakkauksen repositories luokat [UserRepository](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/repositories/user_repository.py) sekä [ExerciseRepository](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/repositories/exercise_repository.py).
 
-
-## Luokkakaavio
+## Sovelluksen luokkakaavio
 
 ![luokkakaavio](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/kuvat/luokkakaavio.jpg)
+
+## Tietojen pysyväistallennus
+
+Tallennuksesta vastaavat pakkauksen repositories luokat [UserRepository](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/repositories/user_repository.py) sekä [ExerciseRepository](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/repositories/exercise_repository.py). Kummatkin tallentavat tiedot SQL-tietokantaan.
+
+## Päätoiminnallisuus 
+
+
