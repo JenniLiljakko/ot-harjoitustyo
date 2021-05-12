@@ -59,6 +59,8 @@ poetry run invoke pylint
 
 ## Dokumentaatio
 
+* [Käyttöohje ](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
+
 * [Työaikakirjanpito ](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
 * [Vaatimusmäärittely](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
