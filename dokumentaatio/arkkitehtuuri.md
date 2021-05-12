@@ -37,6 +37,7 @@ Esimerkiksi:
 UserService
 * login(username, password)
 * create(username, password)
+
 ExerciseService
 * get_exercise_number_list(level)
 * check_answer(answer, exercise_number)
