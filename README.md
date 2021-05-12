@@ -5,7 +5,7 @@ Sovellus on Helsingin Yliopiston Ohjelmistotekniikka(TKT20002)- kurssin harjoitu
 Sovelluksen avulla käyttäjä ratkaisee sovelluksen tarjoamia tehtäviä. Tehtäville on useampi vaikeusaste.
 Generaattori antaa palautteen tehtävän onnistumisesta (oikein/väärin).
 
-Tehtävägeneraattori vaatii tunnuksen ja salasanan luomisen, jotta sisäänkirjautuminen onnistuu.
+Tehtävägeneraattoriin luodaan käyttäjä sekä salasana, joiden avulla kirjautuminen sovellukseen onnistuu.
 
 ## Release
 
