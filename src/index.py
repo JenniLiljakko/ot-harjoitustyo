@@ -2,7 +2,7 @@ from tkinter import Tk
 from ui.ui import UI
 
 window = Tk()
-window.title("APP")
+window.title("Exercise generator")
 
 ui = UI(window)
 ui.start()

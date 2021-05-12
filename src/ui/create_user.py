@@ -8,19 +8,21 @@ class CreateUserView:
         self._username = None
         self._password = None
         self._label_var = None
+        self._frame = None
 
     def start(self):
+        self._frame = ttk.Frame(master=self._root)
         self._label_var = StringVar()
         self._label_var.set("Create new username and password.")
-        heading_label = ttk.Label(master=self._root, textvariable=self._label_var)
+        heading_label = ttk.Label(master=self._frame, textvariable=self._label_var)
 
-        username_label = ttk.Label(master=self._root, text="Username")
-        self._username = ttk.Entry(master=self._root)
+        username_label = ttk.Label(master=self._frame, text="Username")
+        self._username = ttk.Entry(master=self._frame)
 
-        password_label = ttk.Label(master=self._root, text="Password")
-        self._password = ttk.Entry(master=self._root)
+        password_label = ttk.Label(master=self._frame, text="Password")
+        self._password = ttk.Entry(master=self._frame)
 
-        button = ttk.Button(master=self._root, text="Create New User", \
+        button = ttk.Button(master=self._frame, text="Create New User", \
                             command=self._handle_button_click)
 
         heading_label.grid(columnspan=2, sticky=constants.W, padx=5, pady=5)
@@ -30,7 +32,8 @@ class CreateUserView:
         self._password.grid(row=2, column=1, sticky=(constants.E, constants.W), padx=5, pady=5)
         button.grid(columnspan=2, sticky=(constants.E, constants.W), padx=5, pady=5)
 
-        self._root.grid_columnconfigure(1, weight=1, minsize=300)
+        self._frame.grid_columnconfigure(1, weight=1, minsize=300)
+        self._frame.pack(fill=constants.X)
 
     def _handle_button_click(self):
         username = self._username.get()
