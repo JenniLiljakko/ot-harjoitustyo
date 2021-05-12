@@ -13,7 +13,10 @@
 |26.4|2 |Lisää refaktorointia, kirjautumisnäkymän yhdistäminen pääsivuun, sekä uloskirjautuminen|
 |27.4|3 |Testien aloitus, kattavuusraportti|
 |28.4|2.5 |Testien jatko, testien ohjaaminen omaan tietokantaan|
-|10.5|3|Testien jatkoa|
-|**Yhteensä:**|**34 t**||
+|10.5|3|Testien viimeistely|
+|10.5|1|Pylint huomautuksien korjailua ja arvosanan nosto|
+|12.5|2,5|Käyttöohjeen luonti, Arkkitehtuurikuvauksen, määrittelydokumentin sekä README muokkaaminen/viimeistely|
+
+|**Yhteensä:**|**36,5 t**||
 
 
