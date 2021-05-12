@@ -2,7 +2,7 @@
 
 ## Rakenne
 
-Ohjelman pakkausrakenne on seuraavanlainen:
+Ohjelman pakkausrakenne on seuraava:
 
 ![pakkausrakenne](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/kuvat/pakkausrakenne.jpg)
 
