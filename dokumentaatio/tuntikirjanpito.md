@@ -16,7 +16,6 @@
 |10.5|3|Testien viimeistely|
 |10.5|1|Pylint huomautuksien korjailua ja arvosanan nosto|
 |12.5|2,5|Käyttöohjeen luonti, Arkkitehtuurikuvauksen, määrittelydokumentin sekä README muokkaaminen/viimeistely|
-
 |**Yhteensä:**|**36,5 t**||
 
 
