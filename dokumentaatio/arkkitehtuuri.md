@@ -16,7 +16,7 @@ Ohjelman pakkausrakenne on seuraavanlainen:
 Ohjelman käyttöliitymässä on neljä eri näkymää, jotka on toteutettu omina luokkinaan:
 
 * Kirjautuminen (avautuu käynnistyksessä)
-* Uuden käyttäjän luontihttps://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/kuvat/tietomalli.jpg
+* Uuden käyttäjän luonti
 * Pääsivu
 * Tehtävänäkymä
 
@@ -25,6 +25,8 @@ Käyttöliittymän jokainen näkymä on oma ikkunansa. Kirjautumisikkunasta pyst
 Käyttöliittymä on eriytetty sovelluslogiikasta. Käyttöliittymän näkymistä vastaa **Ui-** luokka, joka kutsuu **Service-** luokan metodeja. 
 
 ## Sovelluslogiikka 
+
+![](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/kuvat/tietomalli.jpg)
 
 Sovelluslogiikan muodostavat [User-](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/entities/user.py) sekä [Exercise-](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/entities/exercise.py) luokat, jotka kuvastavat käyttäjää sekä tehtävägeneraattorin tehtäviä.
 
