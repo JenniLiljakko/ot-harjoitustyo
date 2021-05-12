@@ -1,14 +1,14 @@
 # Vaatimusmäärittely
+päivitetty 12.toukokuuta 2021
 
 ### Sovelluksen tarkoitus:
 
-Tehtävägeneraattori antaa käyttäjälle tehtäviä, jotka käyttäjä ratkaisee. Ohjelma kertoo käyttäjälle oliko ratkaisu oikein vain väärin, oikean ratkaisun kohdalla ohjelma myös näyttää mallivastauksen.
-Tehtävistä saa pisteitä, ja lopuksi näytetään saadut pisteet. 
-Ohjelmaan kirjaudutaan sisään, ja siinä voi olla useita eri tasoisia käyttäjiä.
+Tehtävägeneraattori antaa käyttäjälle tehtäviä, jotka käyttäjä ratkaisee. Ohjelma kertoo käyttäjälle oliko ratkaisu oikein vain väärin.
+Ohjelmaan kirjaudutaan sisään, ja siihen voi luoda uuden käyttäjän.
 
 ### Käyttäjät:
 
-Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä (**tehty**). Myöhemmin lisätään pääkäyttäjä, joka voi hallinnoida eri käyttäjiä sekä nähdä tilastoja.
+Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä.
 
 ### Käyttöliittymäluonnos:
 
@@ -26,14 +26,12 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä (**tehty**). My
 #### Kirjautumisen jälkeen
 
 * Käyttäjä valitsee vaikeustason tehtävilleen (**tehty**)
-* Käyttäjä vastaa tehtäviin, ja saa niistä pisteitä
-* Lopuksi käyttäjä näkee saamansa pisteet
 * Käyttäjä voi kirjautua ulos ohjelmasta (**tehty**)
 
 ### Vaatimukset:
 
-* Tehtävägeneraattori toimii Linux- ja OSX-käyttöjärjestelmillä
-* Käyttäjien tiedot talletetaan paikalliselle levylle
+* Tehtävägeneraattori toimii Linux- ja OSX-käyttöjärjestelmillä (**tehty**)
+* Käyttäjien tiedot talletetaan paikalliselle levylle (**tehty**)
 
 
 ### Jatkokehitysideat:
