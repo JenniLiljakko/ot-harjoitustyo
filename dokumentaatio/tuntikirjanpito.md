@@ -13,7 +13,7 @@
 |26.4|2 |Lisää refaktorointia, kirjautumisnäkymän yhdistäminen pääsivuun, sekä uloskirjautuminen|
 |27.4|3 |Testien aloitus, kattavuusraportti|
 |28.4|2.5 |Testien jatko, testien ohjaaminen omaan tietokantaan|
-|10.5|3|Testien jatko, testien ohjaaminen omaan tietokantaan|
+|10.5|3|Testien jatkoa|
 |**Yhteensä:**|**34 t**||
 
 
