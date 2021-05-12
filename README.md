@@ -1,27 +1,15 @@
 # Tehtävägeneraattori
 
+Sovellus on Helsingin Yliopiston Ohjelmistotekniikka(TKT20002)- kurssin harjoitustyö. 
 
-[# RELEASE 1 ](https://github.com/JenniLiljakko/ot-harjoitustyo/releases/tag/viikko5)
+Sovelluksen avulla käyttäjä ratkaisee sovelluksen tarjoamia tehtäviä. Tehtäville on useampi vaikeusaste.
+Generaattori antaa palautteen tehtävän onnistumisesta (oikein/väärin).
 
-Sovelluksen avulla käyttäjä ratkaisee sovelluksen antamia tehtäviä. Tehtäville on useampi vaikeusaste.
-Tehtävägeneraattori vaatii tunnuksen luomisen, ja kirjautumisen sisään salasanan avulla.
+Tehtävägeneraattori vaatii tunnuksen ja salasanan luomisen, jotta sisäänkirjautuminen onnistuu.
 
-## Edistyminen:
+## Release
 
-* Sovellus on edistynyt viime viikosta
-* Sovelluksella on nyt toimiva sisäänkirjautumisnäkymä, sekä 'uuden käyttäjän luonti' näkymä
-* Kirjautuminen vaatii tunnuksen ja salasanan, tunnuksen tulee olla ainakin 2 merkkiä pitkä
-    - ohjelma ilmoittaa mikäli:
-    - tunnusta ei ole vielä olemassa,
-    - mikäli salasana on väärä
-    - kun tunnus ja salasana on oikein (sisäänkirjautuminen onnistui)     
-* Sovelluksella on pääsivu, jolla on listattuna eri vaikeustasot, sekä tehtävänumerot nappien takana.
-* Kirjautumisen jälkeen ohjelma siirtyy pääsivulle
-* Sovelluksen sovelluslogiikka on eriytetty käyttöliittymästä
-* Pylint on otettu käyttöön
-* Sovelluksella on arkkitehtuuritiedosto dokumentaatio hakemiston alla
-* Testaus on aloitettu, mutta vielä kovin vaiheessa
-* **Virtuaalityöasemaa en ole saanut toimimaan laitoksen fuksiläppärillä (Cubbli - Horizon) useista yrityksistä huolimatta, joten en ole pystynyt tarkastamaan ohjelman toimivuutta sen kautta**
+[**RELEASE 1**](https://github.com/JenniLiljakko/ot-harjoitustyo/releases/tag/viikko5)
 
 
 ## Asentaminen
@@ -42,17 +30,26 @@ poetry run invoke start
 
 ## Muuta:
 
-### Testikattavuus: 
 
+### Käynnistäminen:
+```bash
+#Käynnistä komennolla:
+
+poetry run invoke start
+```
+
+### Testikattavuus: 
 ```bash
 #Testikattavuusraportin voi luoda seuraavalla komennolla:
+
 poetry run invoke coverage-report
 ```
 
 ### Pylint
-Tarkistukset voi suorittaa seuraavalla komennolla:
 
 ```bash
+# ![Pylintrc](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/.pylintrc) tiedoston tarkistukset voi suorittaa seuraavalla komennolla:
+
 poetry run invoke pylint
 ```
 
