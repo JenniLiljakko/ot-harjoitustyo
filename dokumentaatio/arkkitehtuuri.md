@@ -16,7 +16,7 @@ sekä 'Entities' sisältää sovelluksen käyttämiä tietokohteita.
 Ohjelman käyttöliitymässä on neljä eri näkymää, jotka on toteutettu omina luokkinaan:
 
 * Kirjautuminen (avautuu käynnistyksessä)
-* Uuden käyttäjän luonti
+* Uuden käyttäjän luontihttps://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/kuvat/tietomalli.jpg
 * Pääsivu
 * Tehtävänäkymä
 
@@ -26,11 +26,22 @@ Käyttöliittymä on eriytetty sovelluslogiikasta. Käyttöliittymän näkymist�
 
 ## Sovelluslogiikka 
 
-Sovelluslogiikan muodostavat User- sekä Exercise-luokat, jotka kuvastavat käyttäjää sekä tehtävägeneraattorin tehtäviä.
+Sovelluslogiikan muodostavat [User-](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/entities/user.py) sekä [Exercise-](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/entities/exercise.py) luokat, jotka kuvastavat käyttäjää sekä tehtävägeneraattorin tehtäviä.
 
 ![](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/kuvat/tietomalli.jpg)
 
+Toiminnallisuudesta vastaavat [UserService](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/services/user_service.py) sekä [ExerciseService](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/services/exercise_service.py) luokkien tarjoamat metodit. 
 
+Esimerkiksi:
+
+UserService
+* login(username, password)
+* create(username, password)
+ExerciseService
+* get_exercise_number_list(level)
+* check_answer(answer, exercise_number)
+
+Tallennuksesta vastaavat pakkauksen repositories luokat [UserRepository](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/repositories/user_repository.py) sekä [ExerciseRepository](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/repositories/exercise_repository.py).
 
 
 ## Luokkakaavio
