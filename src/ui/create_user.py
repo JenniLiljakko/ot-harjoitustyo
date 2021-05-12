@@ -20,7 +20,8 @@ class CreateUserView:
         password_label = ttk.Label(master=self._root, text="Password")
         self._password = ttk.Entry(master=self._root)
 
-        button = ttk.Button(master=self._root, text="Create New User", command=self._handle_button_click)
+        button = ttk.Button(master=self._root, text="Create New User", \
+                            command=self._handle_button_click)
 
         heading_label.grid(columnspan=2, sticky=constants.W, padx=5, pady=5)
         username_label.grid(padx=5, pady=5)

@@ -1,10 +1,12 @@
-from entities.exercise import Exercise
 from repositories.exercise_repository import ExerciseRepository
 
 
 class ExerciseService:
-    def __init__(self):
-        self.exercise_repository = ExerciseRepository()
+    def __init__(self, conn=None):
+        if conn is None:
+            self.exercise_repository = ExerciseRepository()
+        else:
+            self.exercise_repository = ExerciseRepository(conn)
 
     def get_levels_list(self):
         levels = self.exercise_repository.get_levels()
@@ -24,5 +26,4 @@ class ExerciseService:
         db_answer = self.exercise_repository.get_answer(exercise_number)[0]
         if float(answer) == db_answer:
             return "correct! :)"
-        else:
-            return "incorrect :("
+        return "incorrect :("

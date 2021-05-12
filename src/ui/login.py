@@ -33,8 +33,10 @@ class LoginView:
         password_label = ttk.Label(master=self._frame, text="Password")
         self._password = ttk.Entry(master=self._frame)
 
-        login_button = ttk.Button(master=self._frame, text="Login", command=self._handle_button_click)
-        new_user_button = ttk.Button(master=self._frame, text="Create a new user?", command=self._handle_new_user_button_click)
+        login_button = ttk.Button(master=self._frame, text="Login", \
+                                    command=self._handle_button_click)
+        new_user_button = ttk.Button(master=self._frame, text="Create a new user?", \
+                                    command=self._handle_new_user_button_click)
 
         heading_label.grid(columnspan=2, sticky=constants.W, padx=5, pady=5)
         username_label.grid(padx=5, pady=5)

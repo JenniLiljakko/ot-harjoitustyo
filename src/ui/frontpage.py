@@ -1,6 +1,6 @@
-from tkinter import Tk, ttk, constants, Toplevel
-from .exercise_view import ExerciseView
+from tkinter import ttk, constants, Toplevel
 from services.exercise_service import ExerciseService
+from .exercise_view import ExerciseView
 
 
 class FrontPageView:
@@ -17,7 +17,6 @@ class FrontPageView:
 
     def pack(self):
         self._frame.pack(fill=constants.X)
-        
 
     def _initialize(self):
         self._frame = ttk.Frame(master=self._root)
@@ -25,12 +24,15 @@ class FrontPageView:
         heading_label.grid(columnspan=2, sticky=constants.W, padx=5, pady=5)
         db_levels = self._service.get_levels_list()
         for level in db_levels:
-            ttk.Label(master=self._frame, text="Level {}".format(level)).grid(columnspan=2, sticky=constants.W, padx=5, pady=5)
+            ttk.Label(master=self._frame, text="Level {}".format(level)).grid(columnspan=2, \
+                                                        sticky=constants.W, padx=5, pady=5)
             db_exercise_number = self._service.get_exercise_number_list(level)
             for number in db_exercise_number:
-                ttk.Button(master=self._frame, text="{}".format(number), command=lambda num=number: self._handle_button_click(num)).grid(columnspan=2, sticky=constants.W, padx=5, pady=5)
-        ttk.Button(master=self._frame, text="Log out?", command=self._handle_log_out).grid(columnspan=2, sticky=constants.W, padx=5, pady=5)
-
+                ttk.Button(master=self._frame, text="{}".format(number), \
+                    command=lambda num=number: self._handle_button_click(num)).grid(columnspan=2, \
+                                                                sticky=constants.W, padx=5, pady=5)
+        ttk.Button(master=self._frame, text="Log out?", \
+                command=self._handle_log_out).grid(columnspan=2, sticky=constants.W, padx=5, pady=5)
 
     def _handle_button_click(self, exercise_number):
         exercise_window = Toplevel(self._frame)
@@ -40,4 +42,3 @@ class FrontPageView:
         exercise_ui.start()
 
         exercise_window.mainloop()
-

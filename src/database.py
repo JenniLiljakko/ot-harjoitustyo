@@ -52,14 +52,28 @@ def drop_tables(conn):
 
 def add_exercises(conn):
     cursor = conn.cursor()
-    for i in range(1,11):
-        if i<4:
-            level=1
-        elif i>=4 and i<7:
-            level=2
+    for i in range(1, 11):
+        if i < 4:
+            level = 1
+        elif i >= 7:
+            level = 3
         else:
-            level=3
-        cursor.execute('INSERT INTO exercises (exercise_number, exercise_level, exercise, answer) VALUES ({},{}, \'{}\', {}); '.format(i, level, '2^{}'.format(i),2**i))
+            level = 2
+        cursor.execute('INSERT INTO exercises (exercise_number, exercise_level, exercise, answer) \
+                         VALUES ({},{}, \'{}\', {}); '.format(i, level, '2^{}'.format(i), 2**i))
+
+def add_test_exercises(conn):
+    cursor = conn.cursor()
+    for i in range(1, 11):
+        if i < 4:
+            level = 1
+        elif i >= 7:
+            level = 3
+        else:
+            level = 2
+        cursor.execute('INSERT INTO exercises (exercise_number, exercise_level, exercise, answer) \
+                        VALUES ({},{}, \'{}\', {}); '.format(i, level, '2*{}'.format(i), 2*i))
+
 
 def start():
     drop_tables(connection)
@@ -69,5 +83,4 @@ def start():
 def start_test():
     drop_tables(connection_test)
     create_tables(connection_test)
-    add_exercises(connection_test)
-
+    add_test_exercises(connection_test)

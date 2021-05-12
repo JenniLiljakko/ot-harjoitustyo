@@ -1,4 +1,3 @@
-from entities.exercise import Exercise
 from database import connection
 
 
@@ -15,14 +14,16 @@ class ExerciseRepository:
 
     def get_exercise_number_for_level(self, level):
         cursor = self._connection.cursor()
-        return cursor.execute("SELECT exercise_number FROM exercises WHERE exercise_level = ?", (level,)).fetchall()
+        return cursor.execute("SELECT exercise_number FROM exercises WHERE exercise_level = ?", \
+                                (level,)).fetchall()
 
     def get_exercise(self, exercise_number):
         cursor = self._connection.cursor()
-        return cursor.execute("SELECT exercise FROM exercises WHERE exercise_number=?", (exercise_number,)).fetchone()
+        return cursor.execute("SELECT exercise FROM exercises WHERE exercise_number=?", \
+                                (exercise_number,)).fetchone()
 
     def get_answer(self, exercise_number):
         cursor = self._connection.cursor()
-        return cursor.execute("SELECT answer FROM exercises WHERE exercise_number=?", (exercise_number,)).fetchone()
-
+        return cursor.execute("SELECT answer FROM exercises WHERE exercise_number=?", \
+                                (exercise_number,)).fetchone()
             
