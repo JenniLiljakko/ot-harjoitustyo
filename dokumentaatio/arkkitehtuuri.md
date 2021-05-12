@@ -26,7 +26,6 @@ Käyttöliittymä on eriytetty sovelluslogiikasta. Käyttöliittymän näkymist�
 
 ## Sovelluslogiikka 
 
-![](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/kuvat/tietomalli.jpg)
 
 Sovelluslogiikan muodostavat [User-](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/entities/user.py) sekä [Exercise-](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/entities/exercise.py) luokat, jotka kuvastavat käyttäjää sekä tehtävägeneraattorin tehtäviä.
 
