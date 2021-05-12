@@ -32,24 +32,31 @@ poetry run invoke start
 
 
 ### Käynnistäminen:
-```bash
-#Käynnistä komennolla:
 
+Käynnistä sovellus komennolla:
+```bash
 poetry run invoke start
+```
+### Testit
+
+Aja testit läpi komennolla:
+
+```bash
+poetry run invoke test
 ```
 
 ### Testikattavuus: 
-```bash
-#Testikattavuusraportin voi luoda seuraavalla komennolla:
 
+Luo testikattavuusraportti seuraavalla komennolla:
+```bash
 poetry run invoke coverage-report
 ```
 
 ### Pylint
 
-```bash
-# ![Pylintrc](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/.pylintrc) tiedoston tarkistukset voi suorittaa seuraavalla komennolla:
+![Pylintrc](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/.pylintrc) tiedoston tarkistukset suoritetaan komennolla:
 
+```bash
 poetry run invoke pylint
 ```
 
