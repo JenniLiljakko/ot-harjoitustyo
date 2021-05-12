@@ -28,7 +28,9 @@ Käyttöliittymä on eriytetty sovelluslogiikasta. Käyttöliittymän näkymist�
 
 Sovelluslogiikan muodostavat User- sekä Exercise-luokat, jotka kuvastavat käyttäjää sekä tehtävägeneraattorin tehtäviä.
 
-kuva:
+![](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/dokumentaatio/kuvat/tietomalli.jpg)
+
+
 
 
 ## Luokkakaavio
