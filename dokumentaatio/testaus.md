@@ -24,5 +24,14 @@ Sovelluksen testien haarautumiskattavuus on 91%
 
 Järjestelmätestaus on suoritettu manuaalisesti.
 
+## Asennus ja konfigurointi
+
+Tehtävägeneraattori on ladattu sekä asennettu Linux sekä MacOS käyttöjärjestelmillä ohjeiden mukaan, ja todettu toimivaksi. 
+
+## Toiminallisuus
+
+Määrittelydokumentaation kohdat on käyty manuaalisesti läpi. Myös virheilmoituksen aiheuttavat tilanteet on käyty läpi, ja tarkastettu että ne toimivat halutusti. 
+
 ## Ohjelmaan jääneet laatuongelmat
 
+* tehtävägeneraattori toimii ainoastaan numeerisille vastauksille, eikä anna sopivaa virheilmoitusta mikäli vastaus "2" on syötetty esimerkiksi muodossa "kaksi".
