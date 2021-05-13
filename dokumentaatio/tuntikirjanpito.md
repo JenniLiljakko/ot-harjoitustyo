@@ -18,7 +18,6 @@
 |12.5|2,5|Käyttöohjeen luonti, Arkkitehtuurikuvauksen, määrittelydokumentin sekä README muokkaaminen/viimeistely|
 |12.5|2 |Testausdokumentin luonti ja viimeistely|
 |13.5|0.5 |DocString aloitus, 2. release|
-
 |**Yhteensä:**|**39 t**||
 
 
