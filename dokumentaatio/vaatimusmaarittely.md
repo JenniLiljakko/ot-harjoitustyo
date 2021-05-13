@@ -1,5 +1,5 @@
 # Vaatimusmäärittely
-päivitetty 12.toukokuuta 2021
+päivitetty 13.toukokuuta 2021
 
 ### Sovelluksen tarkoitus:
 
@@ -36,6 +36,7 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä.
 
 ### Jatkokehitysideat:
 
+* Tehtävistä saa kerättyä pisteitä
 * Generaattorissa voi valita tehtävien aiheen
 * Uusi käyttäjä aloittaa vaikeustasolta 1, ja suorittamalla kaikki tehtävät oikein pääsee hän jatkamaan seuraavalle vaikeustasolle
 * Mikäli käyttäjä jää jumiin, on mahdollista saada vinkki tehtävän ratkaisuun "apua" nappia painamalla
@@ -43,3 +44,4 @@ Ohjelmalla on aluksi yksi käyttäjärooli, eli peruskäyttäjä.
 * Käyttäjätunnuksien yhteyteen salasana (**tehty**)
 * Tulosten resetointi käyttäjäkohtaisesti
 * Ajastin tehtävien yhteyteen
+
