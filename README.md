@@ -11,6 +11,7 @@ Tehtävägeneraattoriin luodaan käyttäjä sekä salasana, joiden avulla kirjau
 
 [**RELEASE 1**](https://github.com/JenniLiljakko/ot-harjoitustyo/releases/tag/viikko5)
 
+[**RELEASE 2**](https://github.com/JenniLiljakko/ot-harjoitustyo/releases/tag/viikko6)
 
 ## Asentaminen
 
