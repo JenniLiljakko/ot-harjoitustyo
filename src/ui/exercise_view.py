@@ -3,6 +3,8 @@ from services.exercise_service import ExerciseService
 
 
 class ExerciseView:
+    """Luokka tehtävänäkymälle
+    """
     def __init__(self, root, exercise_number):
         self._root = root
         self._exercise_number = exercise_number
@@ -11,6 +13,8 @@ class ExerciseView:
         self._service = ExerciseService()
 
     def start(self):
+        """Käynnistää näkymän
+        """
         top_label = ttk.Label(master=self._root, text="Solve the following exercise")
         db_exercise = self._service.get_exercise_text(self._exercise_number)
         exercise_label = ttk.Label(master=self._root, wraplength=250, text=db_exercise)
@@ -29,5 +33,7 @@ class ExerciseView:
         bottom_label.grid(columnspan=2, sticky=constants.W, padx=5, pady=5)
 
     def _handle_button_click(self):
+        """hakee vastauksen ja tarkistaa sen
+        """
         answer = self._answer_field.get()
         self._label_var.set(self._service.check_answer(answer, self._exercise_number))

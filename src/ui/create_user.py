@@ -3,7 +3,21 @@ from services.user_service import UserService
 
 
 class CreateUserView:
+    """Luokka, jonka avulla luodaan uusi käyttäjä
+
+        Attributes:
+            root:
+            username: käyttäjänimi
+            password: salasana
+            label_var : 
+
+    """
     def __init__(self, root):
+        """Luokan kontruktori
+
+        Args:
+            root: ikkuna
+        """
         self._root = root
         self._username = None
         self._password = None
@@ -11,6 +25,8 @@ class CreateUserView:
         self._frame = None
 
     def start(self):
+        """Käynnistää näkymän
+        """
         self._frame = ttk.Frame(master=self._root)
         self._label_var = StringVar()
         self._label_var.set("Create new username and password.")
@@ -36,6 +52,8 @@ class CreateUserView:
         self._frame.pack(fill=constants.X)
 
     def _handle_button_click(self):
+        """Hakee käyttäjänimen ja salasanan ja luo käyttäjän
+        """
         username = self._username.get()
         password = self._password.get()
 

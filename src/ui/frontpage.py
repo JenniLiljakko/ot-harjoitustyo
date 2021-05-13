@@ -4,6 +4,7 @@ from .exercise_view import ExerciseView
 
 
 class FrontPageView:
+   
     def __init__(self, root, handle_log_out):
         self._root = root
         self._frame = None
@@ -13,6 +14,7 @@ class FrontPageView:
         self._initialize()
 
     def destroy(self):
+
         self._frame.destroy()
 
     def pack(self):
