@@ -50,8 +50,10 @@ Esimerkiksi:
 
 ## Tietojen pysyväistallennus
 
-Tallennuksesta vastaavat pakkauksen repositories luokat [UserRepository](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/repositories/user_repository.py) sekä [ExerciseRepository](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/repositories/exercise_repository.py). Kummatkin tallentavat tiedot SQL-tietokantaan.
+Tallennuksesta vastaavat pakkauksen repositories luokat [UserRepository](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/repositories/user_repository.py) sekä [ExerciseRepository](https://github.com/JenniLiljakko/ot-harjoitustyo/blob/master/src/repositories/exercise_repository.py). Kummatkin tallentavat tiedot SQLite-tietokantaan.
 
-## Päätoiminnallisuus 
+## Tiedostot
 
+Ohjelma tallentaa käyttäjiin, sekä tehtäviin liittyvät tiedot SQLite tietokannan tauluihin.
+Tietokanta alustetaan build.py tiedoston kutsun yhteydessä (poetry run invoke build). 
 
